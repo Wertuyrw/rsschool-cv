@@ -35,7 +35,8 @@ console.log(sentence);
 ## Education
 * **University:** Yanka Kupala State University of Grodno, Applied Mathematics
 * **Courses:**
-    
+    * HTML and CSS Tutorials on the [w3schools](https://w3schools.com)
+    * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ## Languages
 * English - Intermediate/Upper-intermediate (according to the online test at [www.efset.org](www.efset.org))
 * Russian - Native
