@@ -235,12 +235,3 @@ footer {
   vertical-align: middle;
   margin-right: 5px;
 }
-
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .section {
-    width: 50%;
-  }
