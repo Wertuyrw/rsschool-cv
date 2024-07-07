@@ -1,10 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html class="page" lang="en">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-</body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/planets.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Maria Zhiharko CV</title>
+  </head>
+  <body class="page-body">
+    <header class="main-header">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="left-side">
+            <figure class="figure-left-side">
+                <img class="image" src="assets/img/profilePicture.jpg" alt="My photo">
+            </figure>
+            <section class="contacts" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <p><strong>Email</strong>: zhikharko04@gmail.com</p>
+                <p><strong>Phone</strong>: +375 29 818-23-77</p>
+                <p><strong>Telegram</strong>: @maria_zhiharko</p>
+                <p>
+                <strong>GitHub</strong>:
+                <a href="https://github.com/Wertuyrw">Wertuyrw</a>
+                </p>
+            </section>
+        </div>
+        <div class="right-side">
+            <section class="page-title">
+                <h1 class="main-title">Maria Zhiharko</h1>
+            </section>
+            <section class="summary" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>
+                    Self-motivated student of Yanka Kupala State University of Grodno. I have
+                    excellent time-management and communication skills. Also I have strong
+                    analytical skills, which allows me to effectively solve complex problems.
+                    Mathematics helps me structure my work and find optimal solutions.
+                    Programming gives me the tools to turn ideas into reality, and creating
+                    games allows me to show creativity and technical skills.
+                </p>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML5, CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>VSCode</li>
+                    <li>Blender, Adobe Photoshop</li>
+                    <li>Unity</li>
+                </ul>
+            </section>
+            <section class="key-strengths" id="strengths">
+                <h2 class="section-title">Key strengths</h2>
+                <ul>
+                  <li>Hardworking</li>
+                  <li>Responsible</li>
+                  <li>Meticulous</li>
+                  <li>Quick learner</li>
+                  <li>Goal-oriented</li>
+                </ul>
+            </section>
+            <section class="code-example" id="code-example">
+                <h2 class="section-title">Code Example</h2>
+                <strong>Sentence Smash from Codewars</strong>
+                <p>
+                    Write a function that takes an array of words and smashes them together
+                    into a sentence and returns the sentence. You can ignore any need to
+                    sanitize words or add punctuation, but you should add spaces between each
+                    word.
+                </p>
+                <pre><code>
+                    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">smash</span> (<span class="hljs-params">words</span>) </span>{
+                    <span class="hljs-keyword">return</span> words.join(<span class="hljs-string">' '</span>);};
+                    <span class="hljs-keyword">const</span> wordsArray = [<span class="hljs-string">"Hello"</span>, <span class="hljs-string">"world"</span>, <span class="hljs-string">"this"</span>, <span class="hljs-string">"is"</span>, <span class="hljs-string">"a"</span>, <span class="hljs-string">"test"</span>];
+                    <span class="hljs-keyword">const</span> sentence = smash(wordsArray);
+                    <span class="hljs-built_in">console</span>.log(sentence);
+                </code></pre>
+            </section>
+            <section class="education" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li>
+                    <strong>University:</strong> Yanka Kupala State University of Grodno,
+                    Applied Mathematics
+                    </li>
+                    <li>
+                    <strong>Courses:</strong>
+                    <ul>
+                        <li>
+                        HTML and CSS Tutorials on the
+                        <a href="https://w3schools.com">w3schools</a>
+                        </li>
+                        <li>
+                        RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+                        </li>
+                    </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="languages" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>
+                    English - Intermediate/Upper-intermediate (according to the online test
+                    at <a href="www.efset.org">www.efset.org</a>)
+                    <img class="image" src="assets/img/English-certification.png" alt="English certification">
+                    </li>
+                    <li>Russian - Native</li>
+                    <li>Belarusian - Native</li>
+                    <li>German - Basic</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="footer-link">
+            <a href="https://github.com/Wertuyrw" target="_blank">
+                <img src="assets/img/github-logo.png" alt="GitHub" class="icon">
+                My GitHub
+            </a>
+        </div>
+        <div class="footer-year">
+            &copy; 2024
+        </div>
+        <div class="footer-course">
+            <a href="https://app.rs.school/" target="_blank">
+                <img src="assets/svg/course-logo.svg" alt="Course Logo" class="course-logo">
+                RSSCHOOL JS/FE Pre-School 2024Q2
+            </a>
+        </div>
+    </footer>
+  </body>
 </html>
